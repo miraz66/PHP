@@ -15,4 +15,12 @@
 
 // Logical operators (&&, ||, and, or, xor)
 
-// Bitwise operators (&, |, ^, )
+// Bitwise operators (&, |, ^, ~, <<, >>)
+
+// Array operations (+, ==, ===, !=, !==, <>)
+
+// Execution operators (``)
+
+// Type Operations (instanceof)
+
+// Nullsafe operations - PHP8 (?)
