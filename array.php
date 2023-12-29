@@ -19,6 +19,8 @@ $multipleArray = ["php" => [
 ],
 ];
 
+$array = ["a", "b", 53 => "c", "d", "e", "f",];
+
 $programmingLanguages[] = 'C++';
 $programmingLanguagesForKey["Go"] = '1.3';
 array_push($programmingLanguages,'C', 'Rube', 'Go'); // another Options for array creation
