@@ -13,8 +13,8 @@ $multipleArray = ["php" => [
     "website"=> "www.php.net",
     "isOpenSource"=> "true",
     "versions"=> [
-        'version' => 8, "release"=> "Nov 26, 2020",
-        "version7" => 7.3, "release7"=> "Nov 26, 2019"
+        ['version' => 8, "release"=> "Nov 26, 2020",],
+        ["version7" => 7.3, "release7"=> "Nov 26, 2019"]
     ],
 ],
 ];
@@ -30,4 +30,4 @@ print_r($programmingLanguagesForKey);
 echo count($programmingLanguages);
 echo count($programmingLanguagesForKey);
 echo $programmingLanguagesForKey["php"];
-echo $multipleArray["php"]['versions'][0]['release'];
+echo $multipleArray["php"]['versions'][1]['release7'];
