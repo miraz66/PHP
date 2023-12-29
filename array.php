@@ -25,6 +25,7 @@ $programmingLanguages[] = 'C++';
 $programmingLanguagesForKey["Go"] = '1.3';
 array_push($programmingLanguages,'C', 'Rube', 'Go'); // another Options for array creation
 
+unset($array[53]); // Any array removal for use unset
 
 print_r($programmingLanguages);
 print_r($programmingLanguagesForKey);
