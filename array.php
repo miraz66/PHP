@@ -30,4 +30,4 @@ print_r($programmingLanguagesForKey);
 echo count($programmingLanguages);
 echo count($programmingLanguagesForKey);
 echo $programmingLanguagesForKey["php"];
-echo $multipleArray["php"]['versions']['release'];
+echo $multipleArray["php"]['versions'][0]['release'];
