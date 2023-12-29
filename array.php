@@ -28,6 +28,7 @@ array_push($programmingLanguages,'C', 'Rube', 'Go'); // another Options for arra
 
 print_r($programmingLanguages);
 print_r($programmingLanguagesForKey);
+print_r($array); // the print value 0=a 1=2 and 53=c or 54=d etc
 
 echo count($programmingLanguages);
 echo count($programmingLanguagesForKey);
