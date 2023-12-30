@@ -15,11 +15,22 @@
 // $x %= 3 ; // (10 % 3) = 1
 // echo $x;
 
-// Strings operators (. and )
-$x = 'Hello'
-$x = $x . 'World';
+// Strings operators (. and .= )
+// $x = 'Hello';
+// $x .= ' World';
+// echo $x;
 
-// Comparison operators (==, ===,!=, !== <=, >=,, <>, <==>, ??, ?:)
+// Comparison operators (==, ===,!=, !== <=, >=, <>, <=>, ??, ?:)
+// var_dump($x <=> $y);  // Print comparison $x = 5 and $y = 10 ans -1 , $x = 10 and $y = 2 ans 1 , $x = 10 and $y = 10 ans 0
+$x ='Hello world';
+$y = strpos($x, 'H');
+
+// if ($y === false) {
+//     echo "H Not Found";
+// } else { echo"H Found at index " . $y; }
+
+$result = $y === false ? "H Not Found" : "H Found " . $y;
+echo $result;
 
 // Error control operators (@)
 
