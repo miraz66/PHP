@@ -93,11 +93,11 @@
 // $z = $x + $y;
 // var_dump($z); // ans [a,b,c,f,g] because array keys same so ans [a,b,c,f,g]
 
-$x = ['a' => 1, 'b' => 2, 'c' => 3,];
-$y = ['d' => 3, 'e' => 4, 'f' => 5, 'g' => 6, 'h' => 7];
+// $x = ['a' => 1, 'b' => 2, 'c' => 3,];
+// $y = ['d' => 3, 'e' => 4, 'f' => 5, 'g' => 6, 'h' => 7];
 
-$z = $x + $y;
-var_dump($z); // ans [a,b,c,f,g] because array keys not mas so ans [a,b,c,d,e,f,g]
+// $z = $x + $y;
+// var_dump($z); // ans [a,b,c,f,g] because array keys not mas so ans [a,b,c,d,e,f,g]
 
 //---------------------------------------------------------------
 // Execution operators (``)
