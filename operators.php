@@ -33,10 +33,21 @@
 // echo $z;
 
 // Error control operators (@)
+// $z = @file(foo.txt)
 
 // Increment operators / Decrement operators (++, --)
+// $z = 5;
+// $z++; // Post increment operator
+// $z--; // Post decrement operator
+// ++$z; // pre increment operator
+// --$z; // pre decrement operator
+// echo $z;
 
 // Logical operators (&&, ||, and, or, xor)
+$x = true;
+$y = false;
+
+var_dump($x || $y);
 
 // Bitwise operators (&, |, ^, ~, <<, >>)
 
