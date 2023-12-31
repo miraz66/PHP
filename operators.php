@@ -44,12 +44,30 @@
 // echo $z;
 
 // Logical operators (&&, ||, and, or, xor)
-$x = true;
-$y = false;
-
-var_dump($x || $y);
+// $x = true;
+// $y = false;
+// $z = $x or $y;
+// var_dump($z);
 
 // Bitwise operators (&, |, ^, ~, <<, >>)
+$x = 6;
+$y = 3;
+
+//110
+//& 
+//011
+//010 = 2
+// var_dump($x & $y); // set value to 1 & 1 = 1 and 0 & 1 = 0
+// var_dump($x | $y); // set value to 0 | 1 = 1 and 0 | 0 = 0 and 1 | 1 = 1
+// var_dump($x ^ $y); // set value to 0 ^ 1 = 1 and 0 ^ 1 = 1 and 1 ^ 1 = 0
+
+//110
+//~
+//001
+//&
+//011
+//001 = 1
+var_dump(~$x & $y);
 
 // Array operations (+, ==, ===, !=, !==, <>)
 
