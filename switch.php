@@ -1,8 +1,8 @@
 <?php 
-$payment = 'rejected';
+$payment = 'rejected'; // any value set as string,number,bull any value.
 
 switch ($payment) { 
-    case 'paid':
+    case 'paid': //accepted or value is "1" converted to number 1.
         echo 'payment paid';
         break;
 
