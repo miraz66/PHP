@@ -15,12 +15,11 @@
 // echo "Hello World";
 
 // ----------------------------------------------------------------
-// require_once
+// require_once is used to import file once and value set every time.
 
 require_once 'file.php';
 $x++; 
 echo $x . "\n";
 
 require_once 'file.php';
-$x++; 
 echo $x . "\n";
