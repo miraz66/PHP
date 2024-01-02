@@ -36,3 +36,4 @@ echo sum($a, $b, ...$numbers);
 echo sum($a, $b, ...$numbers);
 echo sum($a, $b, ...$numbers);
 echo sum($a, $b, ...$numbers);
+echo sum($a, $b, ...$numbers);
