@@ -24,5 +24,6 @@ function sum(int | float $x, int | float $y , int| float ...$number):int | float
 
 $a = 6.0;
 $b = 7;
+$numbers = [ 10,30,400.23,70 ];
 
-echo sum($a, $b, 10,30,400.23, 70);
+echo sum($a, $b, ...$numbers);
