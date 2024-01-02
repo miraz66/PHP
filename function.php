@@ -27,3 +27,4 @@ $b = 7;
 $numbers = [ 10,30,400.23,70 ];
 
 echo sum($a, $b, ...$numbers);
+echo sum($a, $b, ...$numbers);
