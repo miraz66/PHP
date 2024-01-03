@@ -1,7 +1,7 @@
 <?php
 
 // ARRAY
-$programmingLanguages = ['php', 'java', 'python']; // Simple Array
+/*$programmingLanguages = ['php', 'java', 'python']; // Simple Array
 $programmingLanguagesForKey = [  // Key for Array
     "php" => 8.1,
     "java" => 8.2,
@@ -34,4 +34,13 @@ print_r($array); // the print value 0=a 1=2 and 53=c or 54=d etc
 echo count($programmingLanguages);
 echo count($programmingLanguagesForKey);
 echo $programmingLanguagesForKey["php"];
-echo $multipleArray["php"]['versions'][1]['release7'];
+echo $multipleArray["php"]['versions'][1]['release7']; */
+
+
+
+// ----------------------------------------------------------------
+//array_chunk(array $array, int $length, bool $preserveKeys= true) : array
+
+$item = ['a' => 1, 'b' => 2, 'c' => 3, 'd' => 4, 'e' => 5, 'f' => 6];
+
+print_r(array_chunk($item, 2, true));
