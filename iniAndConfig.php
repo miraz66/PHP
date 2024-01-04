@@ -10,7 +10,7 @@
 
 // echo $array[3];
 
-var_dump(ini_get('display_errors'));
+var_dump(ini_get('memory_limit'));
 ini_set('max_execution_time', 3);
 sleep(5);
 echo('Hello World!');
