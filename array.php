@@ -102,3 +102,11 @@ echo $multipleArray["php"]['versions'][1]['release7']; */
 // $diffAssoc = array_diff_assoc($array1, $array2, $array3);
 // print_r($diff);
 // print_r($diffAssoc);
+
+// $array = ['a' => 1, 'b' => 10, 'c' => 30, 'd' => 4, 'e' => 5, 'f' => 9, 'g' => 7];
+// print_r($array);
+// asort($array);
+// print_r($array);
+// ksort($array);
+// print_r($array);
+
