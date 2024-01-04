@@ -3,3 +3,6 @@
 
 var_dump(ini_get('error_reporting'));
 var_dump(E_ALL);
+
+$array = [1];
+echo $array[3];
