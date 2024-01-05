@@ -25,5 +25,6 @@ set_error_handler('errorHandler', E_ALL);
 set_error_handler('errorHandler', E_ALL);
 set_error_handler('errorHandler', E_ALL);
 set_error_handler('errorHandler', E_ALL);
+set_error_handler('errorHandler', E_ALL);
 
 echo $x;
