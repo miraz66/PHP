@@ -14,5 +14,6 @@ error_reporting(E_ALL & ~E_WARNING);
 set_error_handler('errorHandler', E_ALL);
 set_error_handler('errorHandler', E_ALL);
 set_error_handler('errorHandler', E_ALL);
+set_error_handler('errorHandler', E_ALL);
 
 echo $x;
