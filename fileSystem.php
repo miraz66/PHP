@@ -14,13 +14,13 @@
 //     echo filesize('foo.txt');
 // } else { echo 'file not found ';}
 
-$file = fopen('foo.txt', 'r');
+// $file = fopen('foo.txt', 'r');
 
-var_dump($file);
+// var_dump($file);
 
-while ($line = fgets($file) !== false) {
-    print_r($line);
-}
+// while ($line = fgets($file) !== false) {
+//     print_r($line);
+// }
 
 $content = file_get_contents('foo.txt');
 
